@@ -13,9 +13,12 @@ public class LightBlinkingScript : MonoBehaviour
 
 	public int EnterCounter = 0;
 
+	public Material Material;
+
 	void Start()
 	{
 		roomLight = GetComponent<Light>();
+		Material = GetComponent<Renderer>().material;
 	}
 
 	private void OnTriggerEnter(Collider other)
@@ -35,8 +38,8 @@ public class LightBlinkingScript : MonoBehaviour
 		while (asd)
 		{
 			yield return new WaitForSeconds(Random.Range(minWaitTime, maxWaitTime));
-			roomLight.enabled = !roomLight.enabled;
 
+			roomLight.enabled = !roomLight.enabled;
 		}
 	}
 
