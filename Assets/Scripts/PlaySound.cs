@@ -19,7 +19,7 @@ public class PlaySound : MonoBehaviour
         if (EnterCounter == 0)
         {
             audioSource.Play();
-            audioSource2.Play();
+            //audioSource2.Play();
         }
 
         EnterCounter += 1;
