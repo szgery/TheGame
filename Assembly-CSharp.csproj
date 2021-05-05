@@ -57,11 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\DoorBehav.cs" />
     <Compile Include="Assets\doorBehavOpen.cs" />
+    <Compile Include="Assets\Scripts\PlaySound.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\DoorBehav.cs" />
-    <Compile Include="Assets\Scripts\PlaySound.cs" />
+    <Compile Include="Assets\Scripts\audioHeartBeat.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
