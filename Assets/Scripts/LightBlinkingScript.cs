@@ -18,7 +18,6 @@ public class LightBlinkingScript : MonoBehaviour
 	void Start()
 	{
 		roomLight = GetComponent<Light>();
-		Material = GetComponent<Renderer>().material;
 	}
 
 	private void OnTriggerEnter(Collider other)

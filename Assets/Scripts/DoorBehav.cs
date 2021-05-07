@@ -5,10 +5,11 @@ using UnityEngine;
 public class DoorBehav : MonoBehaviour
 {
     public bool inTrigger;
-    public bool open = false;
-    public bool close = true;
+    public bool open = true;
+    public bool close = false;
 
     public AudioSource audioSource;
+    public AudioSource audioSourceClose;
 
 
     private void OnTriggerEnter(Collider other)
@@ -31,9 +32,7 @@ public class DoorBehav : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     open = true;
-                    close = false;
-                    //Nyitohang
-                    audioSource.Play();
+                    close = false;                    
                 }                
 
             }
@@ -43,8 +42,6 @@ public class DoorBehav : MonoBehaviour
                 {
                     close = true;
                     open = false;
-                    //Nyitohang
-                    audioSource.Play();
                 }                
 
             }
@@ -54,14 +51,16 @@ public class DoorBehav : MonoBehaviour
         {            
 
             //Az ajto nyitasa
-            var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 130.0f, 0.0f), Time.deltaTime * 200);
-            transform.rotation = newRot;            
+            var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 90.0f, 0.0f), Time.deltaTime * 100);
+            transform.rotation = newRot;
+            audioSourceClose.Play();
         }
         else
         {          
             //Az ajto nyitasa
-            var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 0.0f), Time.deltaTime * 200);
-            transform.rotation = newRot;            
+            var newRot = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 0.0f), Time.deltaTime * 100);
+            transform.rotation = newRot;
+            audioSource.Play();
         }
 
     }
