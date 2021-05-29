@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 464
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -396,24 +396,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1033}
-      m_SelectedIDs: 54900000
-      m_LastClickedID: 36948
-      m_ExpandedIDs: 921cffff4e26ffffec2affff5ed2ffff8eedffff4cf6ffff56f7ffff1efaffff50fbffff52fbffff0a3c00006c3c00009c930000
+      scrollPos: {x: 0, y: 1392}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4c73ffff36c5ffff9ec6ffffe0f3ffffa0f4ffff42f6ffff9ef7ffff3cfbffff083d00009e3d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: P_Floor_01 (13)
-        m_OriginalName: P_Floor_01 (13)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -9338
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.158941, y: -1.6407785, z: -10.362441}
+    m_Target: {x: -18.89179, y: -0.063854724, z: -13.656692}
     speed: 2
-    m_Value: {x: -10.158941, y: -1.6407785, z: -10.362441}
+    m_Value: {x: -18.891731, y: -0.06385487, z: -13.656616}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.17211546, y: -0.7758077, z: 0.23891643, w: -0.5585051}
+    m_Target: {x: 0.05230625, y: 0.8916508, z: -0.106407695, w: 0.43767142}
     speed: 2
-    m_Value: {x: -0.17207156, y: -0.7756098, z: 0.2388555, w: -0.55836266}
+    m_Value: {x: 0.052129485, y: 0.8920138, z: -0.106451124, w: 0.4361904}
   m_Size:
-    m_Target: 8.107736
+    m_Target: 9.668626
     speed: 2
-    m_Value: 8.489776
+    m_Value: 9.668626
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1447,22 +1447,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Dnk_Dev/HospitalHorrorPack/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Dnk_Dev/HospitalHorrorPack/Models
   m_LastFoldersGridSize: 69
-  m_LastProjectPath: "C:\\Users\\Szab\xF3 D\xE1niel M\xE1rk\\Documents\\GAME Project"
+  m_LastProjectPath: C:\Unity Projects\TheGame\TheGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: 663f0000
-    m_LastClickedID: 16230
-    m_ExpandedIDs: 000000000e3f00005c3f0000643f0000a23f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c8400000
+    m_LastClickedID: 16584
+    m_ExpandedIDs: 000000003840000086400000c0400000c840000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1490,7 +1490,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e3f0000
+    m_ExpandedIDs: 00000000384000003a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1518,7 +1518,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000de48000000000000403f0000
+    m_ExpandedInstanceIDs: c6230000de48000000000000403f0000523e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
