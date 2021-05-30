@@ -56,20 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\doorOpenKey.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\DoorBehav.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\DoorWithKey.cs" />
     <Compile Include="Assets\doorBehavOpen.cs" />
     <Compile Include="Assets\Scripts\PlaySound.cs" />
     <Compile Include="Assets\Scripts\LightBlinkingScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\audioHeartBeat.cs" />
     <Compile Include="Assets\Scripts\MoveBedScript.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\flashlightScript.cs" />
-    <Compile Include="Assets\lightScript.cs" />
-    <Compile Include="Assets\doorOpenKey.cs" />
-    <Compile Include="Assets\Scripts\DoorWithKey.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
