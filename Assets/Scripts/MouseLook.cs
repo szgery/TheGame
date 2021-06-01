@@ -3,6 +3,8 @@
 public class MouseLook : MonoBehaviour
 {
     public Transform playerTransform;
+    
+    
 
     float xRotation = 0f;
 
@@ -10,6 +12,8 @@ public class MouseLook : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        
+       
     }
 
     // Update is called once per frame
@@ -17,10 +21,11 @@ public class MouseLook : MonoBehaviour
     {
         if (Time.timeScale == 0f)
         {
-            
+            Cursor.lockState = CursorLockMode.Confined;
         }
         else
         {
+            Cursor.lockState = CursorLockMode.Locked;
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");
 
@@ -29,6 +34,7 @@ public class MouseLook : MonoBehaviour
 
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             playerTransform.Rotate(Vector3.up * mouseX);
+            
         }
         
     }
