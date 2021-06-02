@@ -26,6 +26,7 @@ public class DoorWithKey : MonoBehaviour
 
     void Update()
     {
+        //Terem ajtó
         if (player.key == true)
         {
             if (inTrigger)
@@ -71,6 +72,7 @@ public class DoorWithKey : MonoBehaviour
 
     private void OnGUI()
     {
+        //Terem ajtó nyitási GUI az 1-es kulccsal
         if (inTrigger)
         {
             if (player.key == true)

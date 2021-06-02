@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public bool key = false;
+    public bool keyExit = false;
 
     public CharacterController characterController;
 

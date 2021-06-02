@@ -19,12 +19,14 @@ public class doorOpenKey : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (IsTrigger)
         {
-            mesh.enabled = false;
-            InInventory = true;
-            player.key = true;
-
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                mesh.enabled = false;
+                InInventory = true;
+                player.key = true;
+            }
         }
     }
 
