@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveBedScript : MonoBehaviour
 {
+    public bool visitedRoom;
+
     public bool isTrigger;
 
     public float thrust = 1.0f;

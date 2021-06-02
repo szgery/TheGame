@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class audioHeartBeat : MonoBehaviour
 {
+    public MoveBedScript bedScript;
 
     public int EnterCounter = 0;
 
@@ -21,5 +22,13 @@ public class audioHeartBeat : MonoBehaviour
         }
 
         EnterCounter += 1;
+    }
+
+    private void Update()
+    {
+        if (EnterCounter == 1)
+        {
+            bedScript.enabled = true;
+        }        
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     public bool key = false;
     public bool keyExit = false;
 
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (characterController == null)
             characterController = GetComponent<CharacterController>();
+
     }
 
     // Update is called once per frame
