@@ -1,189 +1,105 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 22523 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity Projects/TheGame/TheGame
+/Volumes/ExSSD/TheGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50392
-Successfully changed project path to: C:/Unity Projects/TheGame/TheGame
-C:/Unity Projects/TheGame/TheGame
+64720
+Successfully changed project path to: /Volumes/ExSSD/TheGame
+/Volumes/ExSSD/TheGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 70.77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Projects/TheGame/TheGame/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/ExSSD/TheGame/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
-    Vendor:   
-    VRAM:     2007 MB
-    Driver:   27.21.14.6627
+2021-06-03 08:08:49.968 Unity[12302:779646] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-06-03 08:08:49.968 Unity[12302:779646] Metal devices available: 1
+2021-06-03 08:08:49.969 Unity[12302:779646] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-06-03 08:08:49.969 Unity[12302:779646] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56302
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003549 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.6f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001037 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.08 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.982 seconds
+- Completed reload, in  3.816 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001466 seconds.
+Registered in 0.000544 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.628 seconds
+- Completed reload, in  1.560 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1132 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.9 MB.
-System memory in use after: 65.0 MB.
+System memory in use before: 121.4 MB.
+System memory in use after: 121.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 3.568700 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.955400 ms  DeleteObjects: 0.151600 ms)
+Total: 4.011246 ms (FindLiveObjects: 0.389335 ms CreateObjectMapping: 0.126123 ms MarkObjects: 3.386438 ms  DeleteObjects: 0.107175 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/End.cs
-  artifactKey: Guid(ca514eb08e5a75044a092e4c45fceed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/End.cs using Guid(ca514eb08e5a75044a092e4c45fceed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5c57f658c2406bce099508dbf7bb4d') in 0.044522 seconds
-  Import took 0.048023 seconds .
+  path: Assets/groundMaterial.mat
+  artifactKey: Guid(51681050b3441b14daf5fdeaf3cb0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/groundMaterial.mat using Guid(51681050b3441b14daf5fdeaf3cb0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f08374bad8d17ae9c2aad140b716c') in 2.210555 seconds
+  Import took 2.215161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.868626 seconds.
-  path: Assets/Horror School Props/Prefabs/Blackboard.prefab
-  artifactKey: Guid(7eef1ae6fcfba36449fd258b6e4e4e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Blackboard.prefab using Guid(7eef1ae6fcfba36449fd258b6e4e4e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee8fc18dc1c9fa7bf4098216de21b36') in 0.221330 seconds
-  Import took 0.225834 seconds .
+  Time since last request: 2.253252 seconds.
+  path: Assets/groundMaterial.mat
+  artifactKey: Guid(51681050b3441b14daf5fdeaf3cb0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/groundMaterial.mat using Guid(51681050b3441b14daf5fdeaf3cb0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9f08374bad8d17ae9c2aad140b716c') in 0.021186 seconds
+  Import took 0.024418 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/Horror School Props/Prefabs/Teacher_Chair.prefab
-  artifactKey: Guid(78622f696f6248e4dbc85cadd8905044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Teacher_Chair.prefab using Guid(78622f696f6248e4dbc85cadd8905044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792669ee19309052af7930dd63615275') in 0.046279 seconds
-  Import took 0.049980 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 130.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Horror School Props/Prefabs/Paper.prefab
-  artifactKey: Guid(90c05f8deed8940408dacffe39ac83ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Paper.prefab using Guid(90c05f8deed8940408dacffe39ac83ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef975ed3074711c70894baf84e49385') in 0.036803 seconds
-  Import took 0.040548 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 3.563927 ms (FindLiveObjects: 0.388032 ms CreateObjectMapping: 0.091570 ms MarkObjects: 2.960230 ms  DeleteObjects: 0.120387 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Horror School Props/Prefabs/Info_Board.prefab
-  artifactKey: Guid(97d7ce56b068d4540b096104a2c4cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Info_Board.prefab using Guid(97d7ce56b068d4540b096104a2c4cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3dddc24884a8441acba60ffc295b01') in 0.051626 seconds
-  Import took 0.056273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Horror School Props/Prefabs/Sch_Table.prefab
-  artifactKey: Guid(386e3120a734f7047b962dc928686f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Sch_Table.prefab using Guid(386e3120a734f7047b962dc928686f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07af7e0006e0c193d1df32a8889b27e') in 0.046213 seconds
-  Import took 0.050692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Horror School Props/Prefabs/Pencil_Box.prefab
-  artifactKey: Guid(c72ae93b10a090b4b800e76ede04be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Pencil_Box.prefab using Guid(c72ae93b10a090b4b800e76ede04be11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59b31ef99574238b489d6c3970b91a0') in 0.031169 seconds
-  Import took 0.034480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Horror School Props/Prefabs/Lunch_Box.prefab
-  artifactKey: Guid(3ad88b9e25350374a94a73ed951c5afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Lunch_Box.prefab using Guid(3ad88b9e25350374a94a73ed951c5afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cf36234914554171dcb0deae45a2d6') in 0.034859 seconds
-  Import took 0.038996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Horror School Props/Prefabs/Large_Shelf.prefab
-  artifactKey: Guid(92da7b909f4b0d642adff96c26fc496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Large_Shelf.prefab using Guid(92da7b909f4b0d642adff96c26fc496e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470daf6111b9d795d5135177c628b936') in 0.050854 seconds
-  Import took 0.055987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Horror School Props/Prefabs/Drawer.prefab
-  artifactKey: Guid(7e5602b91bbcb804ba81380a2e743e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Drawer.prefab using Guid(7e5602b91bbcb804ba81380a2e743e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36151a03befdd167026d0b5fdbc22a3') in 0.046370 seconds
-  Import took 0.050236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Horror School Props/Prefabs/Sch_Chair.prefab
-  artifactKey: Guid(5112c371a027e5d41800e4e72233bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Sch_Chair.prefab using Guid(5112c371a027e5d41800e4e72233bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f673f1c5833c364d1bb77b48cd470cd') in 0.093077 seconds
-  Import took 0.097360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Horror School Props/Prefabs/Teacher_Desk_Prefab.prefab
-  artifactKey: Guid(16bdff793d4899349aabfc18e0614e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Teacher_Desk_Prefab.prefab using Guid(16bdff793d4899349aabfc18e0614e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d60397c27d3d5e8abddfb059f23b8dd') in 0.053393 seconds
-  Import took 0.057849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Horror School Props/Prefabs/Book.prefab
-  artifactKey: Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Book.prefab using Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09cfd83439355f040a6e3de690a39d') in 0.030099 seconds
-  Import took 0.033751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Horror School Props/Prefabs/World_Globe.prefab
-  artifactKey: Guid(52f2c0e54aaecba4cbeca5d8560e16b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/World_Globe.prefab using Guid(52f2c0e54aaecba4cbeca5d8560e16b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da258a06b1aed7dc90f2959ee0c2883f') in 0.036648 seconds
-  Import took 0.040435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Horror School Props/Prefabs/Book.prefab
-  artifactKey: Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror School Props/Prefabs/Book.prefab using Guid(dbc490f90759d724a8f076c4c8af84ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09cfd83439355f040a6e3de690a39d') in 0.018040 seconds
-  Import took 0.021623 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
